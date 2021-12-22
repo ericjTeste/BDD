@@ -1,0 +1,111 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      }
+    ],
+    "line": 5,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 8664171500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que estou na tela de login da Loja Selenium",
+            "match": {
+              "location": "StepesLoginLoja.que_estou_na_tela_de_login_da_Loja_Selenium()"
+            },
+            "keyword": "Dada "
+          },
+          {
+            "result": {
+              "duration": 152516700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "preencho os campos email \"curso_teste_2@gmail.com\" e senha\"abc.123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "curso_teste_2@gmail.com",
+                  "offset": 26
+                },
+                {
+                  "val": "abc.123",
+                  "offset": 59
+                }
+              ],
+              "location": "StepesLoginLoja.preencho_os_campos_email_e_senha(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2044911000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "aciono o botao Sign in",
+            "match": {
+              "location": "StepesLoginLoja.aciono_o_botao_Sign_in()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Fazer login",
+        "description": "",
+        "id": "fazer-login;fazer-login",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 677742600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "o sistem apresenta tela inicial com usuario Ramon Logado",
+            "match": {
+              "location": "StepesLoginLoja.o_sistem_apresenta_tela_inicial_com_usuario_Ramon_Logado()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Fazer login",
+    "description": "",
+    "id": "fazer-login",
+    "keyword": "Funcionalidade",
+    "uri": "src/test/resources/feature/loginLoja.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@funcionais"
+      },
+      {
+        "line": 4,
+        "name": "@tag"
+      }
+    ]
+  }
+]
