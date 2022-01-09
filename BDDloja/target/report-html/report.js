@@ -48,7 +48,7 @@ formatter.match({
   "location": "StepesLoginLoja.que_estou_na_tela_de_login_da_Loja_Selenium()"
 });
 formatter.result({
-  "duration": 8664171500,
+  "duration": 8294406400,
   "status": "passed"
 });
 formatter.match({
@@ -65,14 +65,14 @@ formatter.match({
   "location": "StepesLoginLoja.preencho_os_campos_email_e_senha(String,String)"
 });
 formatter.result({
-  "duration": 152516700,
+  "duration": 135787400,
   "status": "passed"
 });
 formatter.match({
   "location": "StepesLoginLoja.aciono_o_botao_Sign_in()"
 });
 formatter.result({
-  "duration": 2044911000,
+  "duration": 1484892700,
   "status": "passed"
 });
 formatter.scenario({
@@ -98,7 +98,7 @@ formatter.match({
   "location": "StepesLoginLoja.o_sistem_apresenta_tela_inicial_com_usuario_Ramon_Logado()"
 });
 formatter.result({
-  "duration": 677742600,
+  "duration": 676426600,
   "status": "passed"
 });
 });
